@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# This is our first script.
+
+echo "Hello world!"
+
+
+# This is something I wrote in vim.
+
+echo "Hi HI Hi"
+
+
+# lol
+
+# Vim is hard.
+
+	echo "tab stop = 4"
