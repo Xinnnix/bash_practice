@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# posit-param3: script ot demonstrate $* and $@
+
+print_param () {
+	echo "\$1 = $1"
+	echo "\$2 = $2"
+	echo "\$3 = $3"
+	echo "\$4 = $4"
+}
+
+pass_param () {
+	echo -e "\n" '\$* :'; print_param $*
+	echo -e "\n" '"\$*" :'; print_param "$*"
+	echo -e "\n" '\$@ :'; print_param $@
+	echo -e "\n" '"\$@" :'; print_param "$@"
+}
+
+pass_param "word" "words with spaces"
+
